@@ -1,0 +1,10 @@
+torch
+torchvision
+torchaudio
+faster_whisper
+openai-whisper
+coqui-tts
+PyAudio
+sounddevice
+numpy
+llama-cpp-python

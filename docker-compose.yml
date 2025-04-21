@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  mira:
+    build: .
+    container_name: mira-assistant
+    restart: always
+    devices:
+      - /dev/snd:/dev/snd
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./app:/app
+      - ./models:/models
+    stdin_open: true
+    tty: true
