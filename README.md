@@ -20,6 +20,11 @@ Mira is an intelligent virtual assistant designed to provide seamless interactio
 
 ### Prerequisites
 - Docker and Docker Compose installed on your system.
+- Need to download **mistral-7b-instruct-v0.2.Q4_K_M.gguf** file from https://huggingface.co
+```bash
+git clone https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+```
+Then copy it to models directory
 
 ### Steps to Run
 1. Clone the repository:
